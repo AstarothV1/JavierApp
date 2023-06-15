@@ -1,10 +1,17 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
+import ButtonAlert from './src/components/CustomBotton/customBotton';
+import Card from './src/common/cardCustom';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>¡Javier-App!</Text>
+      <View>
+        <Card/>
+      </View>
+      <View>
+        <ButtonAlert/>
+      </View>
     </View>
   );
 };
@@ -21,4 +28,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default App; 
