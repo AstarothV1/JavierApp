@@ -18,9 +18,23 @@ const Constants = {
 };
 const Theme = {
     colors: {
-        titulosPrincipales: {
+        tituloPrincipal: {
             color: '#000',
-        },  
+        },
+        paletaDeColores1: {
+            oscuroVioleta: '#593954',
+            verdeAzulado: '#013440',
+            verdeAzuladoIntenso: '#026873',
+            verdeAzuladoBrillante: '#038C8C',
+            verdeMedioAzulado: '#038C7F',
+        },
+        paletaDeColores2: {
+            verdeOscuro: '#014040',
+            verdeMedioOscuro: '#02735E',
+            verdeLimon: '#03A678',
+            naranja: '#F27405',
+            rojoOscuro: '#731702',
+        },
 };
 };
 
